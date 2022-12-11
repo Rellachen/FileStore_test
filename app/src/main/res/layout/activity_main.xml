@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容"
+        android:selectAllOnFocus="true"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="写入"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="读取"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/read_file_list"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="查看文件列表"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_file"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="删除文件"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="240dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/create_cache_file"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="创建缓存文件"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_cache_file"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="删除缓存文件"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="360dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_pic"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="保存图片"
+        android:layout_marginTop="420dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
